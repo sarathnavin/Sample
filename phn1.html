@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ONLINE PURCHASE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+body{
+background-color:green;
+
+}
+ul{
+style-list-type:none;
+}
+li{
+display:inline;
+}
+a:link,a:hover,a:visited
+{
+color:black;
+font-weight:bold;
+font-size:30px;
+padding:2px;
+margin:80px;
+}
+</style>
+       <table>
+           <tr>
+              
+
+<div style="background-color:LightGreen;border:1px solid red;">
+<ul>
+<li><a href="page2.html">Home</a></li>
+<li><a href="Uacc.html">Change Password</a></li>
+<li><a href="del.html" >Delete</a></li>
+<li><a href="all1.html" >Details Update</a></li>
+</ul>
+</div>
+<p align="right"><a href="page2.html">Logout</a></p>
+<p align="right"><a href="all1.html">Update details</a></p>
+           </tr>
+           <tr>
+                <form action="http://localhost:8080/WebApplication3/phn.jsp" method="post">
+            <p><font size="8">Are you sure ,you want to change the contact details</font></p>
+            <pre>
+             Buyer Name     : <input type="text" name="name">
+
+             Contact Number : <input type="text" name="number"/>
+            
+             Address        : <input type="text" name="address"/>
+                
+             New contact    :<input type="text" placeholder="mobile no" name="nphn"/>
+            <input type="Submit" value="change">
+            </pre>    
+</form>
+           </tr>
+       </table>
+   </body>
+</html>
